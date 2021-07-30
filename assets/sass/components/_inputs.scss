@@ -1,0 +1,14 @@
+/* inputs 
+El "extender" que es 
+%mensaje-share {
+    color: $white;
+    font-family: $open-sans;
+ } 
+ Que se tendria que poner en esta misma hoja, y para funcionar más abajo se llama con @extend "y nombre de la extencion"*/ 
+
+
+//prueba de mixin
+//.form__select {
+   // background-color: $white;
+   // @include input-form;
+//}

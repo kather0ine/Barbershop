@@ -1,0 +1,36 @@
+.about__container {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.image {
+    border-radius: 50%;
+    width: 8.120em;
+}
+
+.about__container-info {
+    font-size: $small;
+    text-align: left;
+
+}
+
+.about__container-name {
+    font-family: $playfair;
+    font-style: italic;
+    font-size: $x-large;
+    font-weight: 900;
+    color: $eerie-black;
+}
+
+.about__container-rrss, .about__container-page {
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $light-text;
+    color: $rudy-pink;  
+    text-align: left !important;
+
+    &:hover {
+        color: $raisin-black;
+    }
+}
+

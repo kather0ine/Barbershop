@@ -1,0 +1,30 @@
+/*Mixins*/
+@mixin botones {
+    border-radius: 35px;
+    background-color: $nickel;
+    border: none;
+    color: $white;
+    font-size: $small;
+    padding: .5rem 1rem;
+    box-shadow: inset none;
+    margin-left: 5px;
+    text-align: none;
+    &:hover {
+        background-color: $light-gray;
+        color: $white;
+    }
+}
+
+@mixin pink-text {
+    color: $rudy-pink;
+    &:hover {
+        color: $spanish-pink;
+    }
+}
+
+@mixin link-text {
+    color: $white;
+    &:hover {
+        color: $rudy-pink;
+    }
+}

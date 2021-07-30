@@ -1,0 +1,29 @@
+.button__section {
+    background-color: $platium;
+}
+.button_section-item {
+    background-color: $white ;
+    color: black;
+   
+    &:hover {
+        background-color: $light-gray;
+        color: $white;
+    }
+}
+
+.previous {
+    border-radius: 20px 0px 0px 20px!important;
+}
+
+.next {
+    border-radius: 0px 20px 20px 0px!important;
+}
+
+.page-link {
+    color: $eerie-black;
+    &:hover {
+        background-color: $nickel;
+        color: $white;
+    }
+
+}

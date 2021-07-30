@@ -1,0 +1,19 @@
+/* Base styles*/ 
+
+
+/*base typography*/ 
+h2, h3 , h4, h5, h6 {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $medium;
+}
+h1 {
+     font-family: $playfair;
+     font-weight: $bold;
+     font-style: italic;
+     font-size: $small;
+ }
+
+ html {
+    scroll-behavior: smooth;
+}

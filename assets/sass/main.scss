@@ -1,0 +1,40 @@
+// main.css #manifest File
+
+//Abstracts
+@import "abstracts/variables";
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+//Vendors ej: //@import 'vendors/bootstrap-5.0.2/bootstrap';
+//@import 'vendors/;
+
+@import 'vendors/bootstrap-4.1/bootstrap';
+@import 'vendors/jquery-ui';
+
+//Base
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+//Layout
+@import 'layout/navigation';
+@import 'layout/header-section';
+@import 'layout/main-section';
+@import 'layout/about-section';
+@import 'layout/button-section';
+@import 'layout/footer';
+
+//Components
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/inputs';
+
+//Pages
+@import 'pages/home';
+@import 'pages/contact';
+
+//Themes
+@import 'themes/theme';
+@import 'themes/admin';
+
